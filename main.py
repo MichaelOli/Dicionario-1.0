@@ -10,7 +10,7 @@ chaves = {
     'Profissão': input(f'Infome a Profissão do usuário: '),
     'Empresa': input(f'Infome a Empresa que o usuario trabalha: ')
 }
-#saltando uma linha para exibir o codigo
+#saltando uma linha para exibir o Dicionario
 print('')
 #Mostrando os dados 
 for chave in chaves:
