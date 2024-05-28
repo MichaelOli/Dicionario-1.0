@@ -12,5 +12,6 @@ chaves = {
 }
 #Mostrando os dados 
 for chave in chaves:
+    print('')
     print(f'{chave}: {chaves.get(chave)}')
     
