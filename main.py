@@ -1,3 +1,4 @@
+#Dicionario de dados
 chaves = {
     'Nome': input(f'Infome o nome do usuário: '),
     'CPF': input(f'Infome o CPF do usuário: '),
@@ -8,8 +9,8 @@ chaves = {
     'Tipo sanguíneo': input(f'Infome o Tipo sanguíneo do usuário: '),
     'Profissão': input(f'Infome a Profissão do usuário: '),
     'Empresa': input(f'Infome a Empresa que o usuario trabalha: ')
-
 }
-
+#Mostrando os dados 
 for chave in chaves:
     print(chaves.get(chave))
+    
