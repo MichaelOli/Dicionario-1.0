@@ -11,7 +11,7 @@ chaves = {
     'Empresa': input(f'Infome a Empresa que o usuario trabalha: ')
 }
 #saltando uma linha para exibir o Dicionario
-print('')
+print(f'{'-'*20} Dados do Dicionario {'-'*20}')
 #Mostrando os dados 
 for chave in chaves:
     print(f'{chave}: {chaves.get(chave)}')
